@@ -41,7 +41,6 @@ countries_rank_conf = refresh('confirmed')
 countries_rank_deaths = refresh('deaths')
 countries_rank_recovered = refresh('recovered')
 
-
 # Функция, что сработает при отправке какого-либо текста боту
 # Здесь мы создаем отслеживания данных и вывод статистики по определенной стране
 @bot.message_handler(content_types=['text'])
