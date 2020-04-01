@@ -24,7 +24,6 @@ def refresh(message):
     rank = covid19.getAll()
     countries_rank = {}
 
-
     for x in rank['locations']:
         # print(x['country_code'], x['country'], x['latest']['confirmed'], x['latest']['deaths'], x['latest']['recovered'])
         country_name = x['country']
