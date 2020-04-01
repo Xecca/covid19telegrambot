@@ -35,7 +35,6 @@ def refresh(message):
     print(countries_rank)
 
     return countries_rank
-   
     # print(rank['locations'][1]['country_code'], rank['locations'][1]['latest']['confirmed'])
 
 countries_rank_conf = refresh('confirmed')
