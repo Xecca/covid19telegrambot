@@ -4,7 +4,7 @@ from telebot import types
 import flags
 
 covid19 = COVID19Py.COVID19()
-bot = telebot.TeleBot('1297109434:AAH9KdHRmJE1t2uN65bwufzsJcGbC5N57Qc')
+bot = telebot.TeleBot('myAPI')
 
 @bot.message_handler(commands=['start'])
 def start(message):
